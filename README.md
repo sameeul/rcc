@@ -7,7 +7,8 @@ RCC is a simple implematation of randomized ceaser cypher. The class is a single
 * forward slash
 * backward slash
 
-Example:
+Example
+
 from rcc import Rcc
 rcc_obj = Rcc.instance()
 test_str = "alaska is a funny pl\\ace"
