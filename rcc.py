@@ -11,9 +11,9 @@ class Rcc(object):
     _replace_map = None
     _do_not_replace_list = sorted([' ', '.', "\\", '/']) # keep this sorted
     _char_set_range_map = {'Basic Latin':(0x0000, 0x007F),
-                          # 'Latin-1 Supplement':(0x0080, 0x00FF),
-                          # 'Latin Extended-A':(0x0100, 0x017F),
-                          # 'Latin Extended-B':(0x0180, 0x024F),
+                           'Latin-1 Supplement':(0x0080, 0x00FF),
+                           'Latin Extended-A':(0x0100, 0x017F),
+                           'Latin Extended-B':(0x0180, 0x024F),
                           }
     _to_map_range = [(0x0030, 0x0039), (0x0061,0x007A)]
     def __init__(self):
